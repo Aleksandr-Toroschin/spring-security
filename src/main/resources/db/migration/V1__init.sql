@@ -18,9 +18,11 @@ create table users_roles (
 );
 
 insert into roles (name) values
-('ADMIN'),
-('USER'),
-('MANAGER');
+('ROLE_ADMIN'),
+('ROLE_USER'),
+('ROLE_MANAGER'),
+('ADD_USER'),
+('EDIT_USER');
 
 insert into users (name, password) values
 ('Иванов', '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i'),
@@ -31,4 +33,6 @@ insert into users_roles (user_id, role_id)
 values (1, 1),
        (2, 2),
        (2, 3),
-       (3, 3);
+       (3, 2),
+       (3, 4),
+       (2, 5);
