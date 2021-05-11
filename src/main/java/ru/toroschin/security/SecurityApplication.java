@@ -14,4 +14,9 @@ public class SecurityApplication {
 		SpringApplication.run(SecurityApplication.class, args);
 	}
 
+
+	// пользователи
+	// User1 - Admin пароль 100
+	// User2 - Manager пароль 100
+	// User3 - User пароль 100
 }
